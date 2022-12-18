@@ -1,0 +1,104 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Webscraper/1.0.0": {
+        "dependencies": {
+          "Selenium.WebDriver": "4.7.0",
+          "wk.CsvWriter": "0.0.5"
+        },
+        "runtime": {
+          "Webscraper.dll": {}
+        }
+      },
+      "CsvHelper/24.0.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/CsvHelper.dll": {
+            "assemblyVersion": "24.0.0.0",
+            "fileVersion": "24.0.1.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.5.0": {},
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "Selenium.WebDriver/4.7.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/WebDriver.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "wk.CsvWriter/0.0.5": {
+        "dependencies": {
+          "CsvHelper": "24.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/CsvWriter.dll": {
+            "assemblyVersion": "0.0.5.0",
+            "fileVersion": "0.0.5.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Webscraper/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CsvHelper/24.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-90xJKK4AFa10ozIV3FRVU/IpTpv2r8c+c2MscHM6YMt9sjHhV+Vn0vxKolQfuvraohxtSiTys/tPWrT9FTUnWA==",
+      "path": "csvhelper/24.0.1",
+      "hashPath": "csvhelper.24.0.1.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
+      "path": "microsoft.csharp/4.5.0",
+      "hashPath": "microsoft.csharp.4.5.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "Selenium.WebDriver/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WNGX6JxjBS5f79PQnrB4oO+5U83f8tZfND+rqX2YJVHPdv3xS/zZwljWqGu5UDhluo3kEuuT+DuGEZW8/+9fOA==",
+      "path": "selenium.webdriver/4.7.0",
+      "hashPath": "selenium.webdriver.4.7.0.nupkg.sha512"
+    },
+    "wk.CsvWriter/0.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z+lI9KTtRFiENX+/BGmxDEGRh9mmOnKiDT53dFQUMxC76D3Pb35HRKBqCC6A5tLqWx9+VW3srL7N3cs7v8hfuQ==",
+      "path": "wk.csvwriter/0.0.5",
+      "hashPath": "wk.csvwriter.0.0.5.nupkg.sha512"
+    }
+  }
+}
